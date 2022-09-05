@@ -6,8 +6,8 @@ function rqListener(req, res) {
   res.setHeader("Content-Type", "text/html");
   res.write(`
     <html>
-      <head><title>My First Page</tile></head>
-      <body><h1>Helo from my Node.js Server!</h1></body>
+      <head><title>My First Page</tile></head></title>
+      <body><h1>Hello from my Node.js Server!</h1></body>
     </html>
   `);
   res.end();
